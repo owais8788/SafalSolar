@@ -714,7 +714,7 @@ section {
 # Services Section
 --------------------------------------------------------------*/
 .services-bg{
-  background-color: #F5F8F9;
+  background-color: E9FFC2;
 }
 .services .service-item {
   padding: 40px;
@@ -1103,9 +1103,9 @@ section {
 /*--------------------------------------------------------------
 # Alt Services Section
 --------------------------------------------------------------*/
-/* .alt-services{
+.alt-services{
  background-color: #C3EDC0;
-} */
+}
 .alt-services .img-bg {
   background-size: cover;
   background-position: center center;
