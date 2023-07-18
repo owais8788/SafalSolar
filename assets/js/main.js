@@ -213,3 +213,10 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
+function openForm(){
+ document.getElementById('tabcontent1').style.display='block'
+}
+
+function openForm2(){
+  document.getElementById('tabcontent2').style.display='block'
+ }
