@@ -68,26 +68,20 @@
 
         <!-- ======= Hero Section ======= -->
         <section id="hero" class="hero">
-            <div class="info d-flex align-items-center">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-6 text-center"></div>
-                    </div>
-                </div>
-            </div>
+
 
             <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
                 <div class="carousel-item active" style="background-image: url(assets/img/SafalSolar/banner_images/banner-1.svg);">
-                    <div class="carousel-caption d-none d-md-block" data-aos="fade-out">
-                        <div class="col-lg-6 text-center">
-                            <h2>Welcome to <span>Safal Solar</span></h2>
-                            <p>
+                    <div class="carousel-caption">
+                        <div class="col-lg-6">
+                            <h2 style="font-size: 48; line-height: 50px; text-align: left; margin-left: 0px;">Rooftop solar made easy</h2>
+                            <p class="">
                                 Get trusted solar advice, buy storm-proof systems, and receive professional maintenance - all in one place!
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item" style="background-image: url(assets/img/SafalSolar/banner_images/banner-2.jpeg);">
+                <div class="carousel-item" style="background-image: url(assets/img/SafalSolar/banner_images/banner-2.svg);">
                     <div class="carousel-caption d-none d-md-block">
                         <div class="col-lg-6 text-center">
                             <h2>Welcome to <span>Safal Solar</span></h2>
@@ -97,7 +91,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item" style="background-image: url(assets/img/SafalSolar/banner_images/banner-3.jpg);">
+                <div class="carousel-item" style="background-image: url(assets/img/SafalSolar/banner_images/banner-3.svg);">
                     <div class="carousel-caption d-none d-md-block">
                         <div class="col-lg-6 text-center">
                             <h2>Welcome to <span>Safal Solar</span></h2>
@@ -107,9 +101,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item" style="background-image: url(assets/img/SafalSolar/banner_images/banner-4.webp);">
+                <div class="carousel-item" style="background-image: url(assets/img/SafalSolar/banner_images/banner-4.svg);">
                     <div class="carousel-caption d-none d-md-block">
                         <div class="col-lg-6 text-center">
+                            <h2>Welcome to <span>Safal Solar</span></h2>
                             <p>
                                 Get trusted solar advice, buy storm-proof systems, and receive professional maintenance - all in one place!
                             </p>
@@ -137,7 +132,7 @@
                 <div class="container">
                     <div class="row gx-lg-5 align-items-center">
                         <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-up">
-                            <h1 class="my-5 display-3 fw-bold ls-tight">
+                            <h1 class="my-5 display-3 fw-bold ls-tight" style="color: #364d59;">
                                 Get a free solar <br />
                                 <span class="">consultation now! </span>
                             </h1>
@@ -150,36 +145,49 @@
                         <!-- Tabs secton for form start -->
                         <div class="col-lg-6 mb-5 mb-lg-0">
                             <div class="tabs">
+
                                 <input class="input" name="tabs" type="radio" id="tab-1" checked="checked" />
-                                <label class="label" for="tab-1">Arlina Design</label>
-                                <div class="panel">
+                                <label class="label" for="tab-1">Home</label>
+                                <div class="panel" style="width: 100%;">
                                   <form>
                                     <!-- 2 column grid layout with text inputs for the first and last names -->
                                     <div class="row mb-4">
-                                      <div class="col">
-                                        <div class="form-outline">
-                                          <input type="text" id="form3Example1" class="form-control" />
-                                          <label class="form-label" for="form3Example1">First name</label>
+                                      <div class="col-lg-6">
+                                        <div class="form-floating mb-3">
+                                            <input type="text" class="form-control" id="floatingInput" placeholder="name"/>
+                                            <label for="floatingInput">Name</label>
                                         </div>
                                       </div>
-                                      <div class="col">
-                                        <div class="form-outline">
-                                          <input type="text" id="form3Example2" class="form-control" />
-                                          <label class="form-label" for="form3Example2">Last name</label>
+                                      <div class="col-lg-6">
+                                        <div class="form-floating mb-3">
+                                            <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com"/>
+                                            <label for="floatingInput">Company Name</label>
                                         </div>
                                       </div>
                                     </div>
                                   
                                     <!-- Email input -->
-                                    <div class="form-outline mb-4">
-                                      <input type="email" id="form3Example3" class="form-control" />
-                                      <label class="form-label" for="form3Example3">Email address</label>
+                                    <div class="form-floating mb-3">
+                                        <input type="number" class="form-control" id="floatingInput" placeholder="name@example.com" required/>
+                                        <label for="floatingInput">Mobile Number</label>
                                     </div>
                                   
                                     <!-- Password input -->
-                                    <div class="form-outline mb-4">
-                                      <input type="password" id="form3Example4" class="form-control" />
-                                      <label class="form-label" for="form3Example4">Password</label>
+                                    <div class="form-floating mb-3">
+                                        <input type="number" class="form-control" id="floatingInput" placeholder="name@example.com"/>
+                                        <label for="floatingInput">Pin code</label>
+                                    </div>
+
+                                    <div class="form-floating mb-3">
+                                        <select class="form-select form-control fw-bold" id="floatingSelect" aria-label="Floating label select example">
+                                            <option selected></option>
+                                            <option value="1"><span><1500</span></option>
+                                            <option value="2"><span>1500-2500</span></option>
+                                            <option value="3"><span>2500-4000</span></option>
+                                            <option value="3"><span>4000-8000</span></option>
+                                            <option value="3"><span>>8000</span></option>
+                                        </select>
+                                        <label for="floatingSelect">Enter Average Monthly Electricity Bill</label>
                                     </div>
                                   
                                     <!-- Checkbox -->
@@ -189,22 +197,22 @@
                                         Subscribe to our newsletter
                                       </label>
                                     </div>
-                      
+
                                     <!-- Submit button -->
                                     <div class="text-center">
-                                      <button type="submit" class="btn btn-primary btn-block mb-4">Sign up</button>
+                                      <button type="submit" class="btn btn-primary btn-block mb-4">Submit</button>
                                     </div>
                                   </form>
                                 </div>
                                 <input class="input" name="tabs" type="radio" id="tab-2" />
-                                <label class="label" for="tab-2">Idntheme</label>
+                                <label class="label" for="tab-2">Housing Society</label>
                                 <div class="panel">
                                     <h1>Idntheme</h1>
                                     <p>Idntheme (Citrus tangerina) is an orange-colored citrus fruit that is closely related to, or possibly a type of, mandarin orange (Citrus reticulata).</p>
                                     <p>The name was first used for fruit coming from Tangier, Morocco, described as a mandarin variety. Under the Tanaka classification system, Citrus tangerina is considered a separate species.</p>
                                 </div>
                                 <input class="input" name="tabs" type="radio" id="tab-3" />
-                                <label class="label" for="tab-3">Tekno Match</label>
+                                <label class="label" for="tab-3">Commercial</label>
                                 <div class="panel">
                                     <h1>Tekno Match</h1>
                                     <p>
@@ -224,17 +232,25 @@
 
             <!-- ======= Constructions Section ======= -->
             <section id="constructions" class="constructions">
-                <div class="container my-5">
+                <div class="container">
                     <div class="row">
                         <div class="col-lg-6" data-aos="fade-up">
-                            <div class="p-5 mt-4">
-                                <h1 class="display-4">Homeowners Guide To Buying Rooftop Solar</h1>
-                                <p class="lead">Crow's nest schooner ho scallywag hail-shot gabion salmagundi. Doubloon careen code of conduct lugsail hulk ye long clothes.</p>
-                                <a href="#" class="btn btn-outline-dark">Read More</a>
+                            <div class="p-5">
+                                <h1 class="display-4 fw-bold" style="color: #071952;">Homeowners Guide To Buying <span style="background: linear-gradient( to bottom,transparent 60%,#ffffff 60%,#ffffff 60%,#ffffff 100% );">Rooftop Solar</span></h1>
+                                <p class="lead">Learn about everything you need to know before installing a rooftop solar system in your home.</p>
+                                <ul style="list-style: none;" class="ms-0">
+                                    <li class="mb-2 fs-6"><span><i class="bi bi-arrow-up-right-square-fill"></i></span> solar system for your home</li>
+                                    <li class="mb-2 fs-6"><span><i class="bi bi-arrow-up-right-square-fill"></i></span> Savings to expect with solar</li>
+                                    <li class="mb-2 fs-6"><span><i class="bi bi-arrow-up-right-square-fill"></i></span> Indian states with the best solar output</li>
+                                    <li class="mb-2 fs-6"><span><i class="bi bi-arrow-up-right-square-fill"></i></span> Easy financing to make the switch</li>
+                                    <li class="mb-2 fs-6"><span><i class="bi bi-arrow-up-right-square-fill"></i></span> Govt subsidy and assistance</li>
+                                    <li class="mb-2 fs-6"><span><i class="bi bi-arrow-up-right-square-fill"></i></span> From buying, installing to maintenance - how it works</li>
+                                    </ul>
+                                <!-- <a href="#" class="btn btn-outline-dark">Read More</a> -->
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <img class="w-100 shadow-lg p-3 mb-5 bg-body-tertiary rounded" src="assets/img/SafalSolar/guide to buying solor/guide.svg" />
+                            <img class="w-100 shadow-lg bg-body-tertiary rounded" src="assets/img/SafalSolar/guide to buying solor/guide.svg" />
                         </div>
                     </div>
                 </div>

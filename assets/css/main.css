@@ -19,7 +19,7 @@
 
 /* Colors */
 :root {
-  --color-default: #364d59;
+  --color-default: #071952;
   --color-primary: #C3EDC0;
   --color-secondary: black;
 }
@@ -1874,7 +1874,7 @@ section {
 
 .hero .carousel-item::before {
   content: "";
-  background-color: rgba(0, 0, 0, 0.7);
+  background:linear-gradient(transparent,rgba(0,0,0,.89));
   position: absolute;
   inset: 0;
 }
