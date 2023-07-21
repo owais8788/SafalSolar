@@ -308,7 +308,7 @@ section {
     font-family: var(--font-primary);
     font-size: 14px;
     font-weight: 500;
-    color: rgba(255, 255, 255, 0.6);
+    color: #FDFFAE;
     text-transform: uppercase;
     white-space: nowrap;
     transition: 0.3s;
@@ -2733,4 +2733,121 @@ section {
 }
 .input:checked + .label + .panel {
   display: block;
+}
+
+.carousel-caption {
+  color: #FDFFAE;
+  position: absolute;
+  bottom: 5%;
+  left: 30%;
+  transform: translate(-50%);
+  opacity: 0;
+  animation: fade-up 1s forwards ease-in;
+}
+
+.carousel-caption2 {
+  position: absolute;
+  bottom: 4%;
+  left: 30%;
+  transform: translate(-22%);
+  opacity: 0;
+  animation: fade-up-p 1s forwards ease;
+}
+
+@keyframes fade-up-p {
+  to {
+    opacity: 1;
+  }
+}
+
+
+@keyframes fade-up {
+  to {
+      opacity: 1;
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(96, 110, 95, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 999; /* Set a higher z-index to appear over other elements */
+  transition: opacity 500ms;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+  
+}
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+@media screen and (max-width: 700px) {
+  .box {
+    width: 70%;
+  }
+  .popup {
+    width: 70%;
+  }
+}
+@keyframes popup {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.4);
+  }
+  60% {
+    transform: scale(1.1);
+  }
+  70% {
+    transform: scale(1.2);
+  }
+  80% {
+    transform: scale(1);
+  }
+  90% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.crd-icon{
+  height: 80px;
+  width: 80px;
+}
+
+.easyline{
+  border-bottom: 1px solid hsla(0,0%,44%,.23);
+    cursor: pointer;
+    position: relative;
 }

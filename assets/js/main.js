@@ -220,3 +220,18 @@ function openForm(){
 function openForm2(){
   document.getElementById('tabcontent2').style.display='block'
  }
+
+ myButton.addEventListener("click", function () {
+  myPopup.classList.add("show");
+});
+closePopup.addEventListener("click", function () {
+  myPopup.classList.remove("show");
+});
+window.addEventListener("click", function (event) {
+  if (event.target == myPopup) {
+      myPopup.classList.remove("show");
+  }
+});
+
+// counter code
+
