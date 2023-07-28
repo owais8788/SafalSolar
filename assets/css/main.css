@@ -67,7 +67,7 @@ section {
 }
 
 .section-bg {
-  background-color: #AAC8A7;
+  background-color: #3366CC;
 }
 
 .section-header {
@@ -309,7 +309,7 @@ section {
     font-family: var(--font-primary);
     font-size: 14px;
     font-weight: 500;
-    color: #FDFFAE;
+    color: var(--color-white);
     text-transform: uppercase;
     white-space: nowrap;
     transition: 0.3s;
@@ -347,7 +347,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: var(--color-white);
+    color: var(--color-primary);
   }
 
   .navbar .dropdown ul {
@@ -679,7 +679,7 @@ section {
 # Constructions Section
 --------------------------------------------------------------*/
 .constructions{
-  background-color: #C3EDC0;
+  background: linear-gradient(to left, #3366cc 0%, #cfcfff 100%);
   }
 .constructions .card-item {
   border: 1px solid rgba(82, 86, 94, 0.2);
@@ -715,7 +715,7 @@ section {
 # Services Section
 --------------------------------------------------------------*/
 .services-bg{
-  background-color: E9FFC2;
+  background-color: #fff;
 }
 .services .service-item {
   padding: 40px;
@@ -1105,7 +1105,7 @@ section {
 # Alt Services Section
 --------------------------------------------------------------*/
 .alt-services{
- background-color: #C3EDC0;
+  background:linear-gradient(to bottom, #f4f7f9 0%, #fefefe 100%);
 }
 .alt-services .img-bg {
   background-size: cover;
@@ -2737,7 +2737,7 @@ section {
 }
 
 .carousel-caption {
-  color: #FDFFAE;
+  color: var(--color-white);
   position: absolute;
   bottom: 5%;
   left: 30%;
