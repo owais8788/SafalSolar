@@ -30,14 +30,6 @@
 
         <!-- Template Main CSS File -->
         <link href="assets/css/main.css" rel="stylesheet" />
-
-        <!-- =======================================================
-  * Template Name: UpConstruction
-  * Updated: May 30 2023 with Bootstrap v5.3.0
-  * Template URL: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
     </head>
 
     <body>
@@ -46,7 +38,6 @@
             <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
                 <a href="index.html" class="logo d-flex align-items-center">
                     <!-- Uncomment the line below if you also wish to use an image logo -->
-                    <img src="assets/img/logo.png" alt="" />
                     <img src="assets/img/SafalSolar/logo/logo.png" alt="" />
                 </a>
 
@@ -135,8 +126,7 @@
                                 <span class="">consultation now! </span>
                             </h1>
                             <p style="color: #fff;">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, itaque accusantium odio, soluta, corrupti aliquam quibusdam tempora at cupiditate quis eum maiores libero veritatis? Dicta facilis sint
-                                aliquid ipsum atque?
+                                Start your solar journey with a free rooftop evaluation and solar consultation for your home!
                             </p>
                         </div>
 
@@ -151,13 +141,13 @@
                                         <div class="row mb-4">
                                             <div class="col-lg-6">
                                                 <div class="form-floating mb-3">
-                                                    <input type="text" class="form-control" id="floatingInput" placeholder="name" />
+                                                    <input type="text" class="form-control" id="floatingInput" placeholder="name" name="name"/>
                                                     <label for="floatingInput">Name</label>
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">
                                                 <div class="form-floating mb-3">
-                                                    <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com" />
+                                                    <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com" name="companyName"/>
                                                     <label for="floatingInput">Company Name</label>
                                                 </div>
                                             </div>
@@ -165,18 +155,18 @@
 
                                         <!-- Email input -->
                                         <div class="form-floating mb-3">
-                                            <input type="number" class="form-control" id="floatingInput" placeholder="name@example.com" required />
+                                            <input type="number" class="form-control" id="floatingInput" placeholder="name@example.com" required name="mobileNumber"/>
                                             <label for="floatingInput">Mobile Number</label>
                                         </div>
 
                                         <!-- Password input -->
                                         <div class="form-floating mb-3">
-                                            <input type="number" class="form-control" id="floatingInput" placeholder="name@example.com" />
+                                            <input type="number" class="form-control" id="floatingInput" placeholder="name@example.com" name="pin"/>
                                             <label for="floatingInput">Pin code</label>
                                         </div>
 
                                         <div class="form-floating mb-3">
-                                            <select class="form-select form-control fw-bold" id="floatingSelect" aria-label="Floating label select example">
+                                            <select class="form-select form-control fw-bold" id="floatingSelect" aria-label="Floating label select example" name="bill">
                                                 <option selected></option>
                                                 <option value="1"><span><1500</span></option>
                                                 <option value="2"><span>1500-2500</span></option>
@@ -189,7 +179,7 @@
 
                                         <!-- Checkbox -->
                                         <div class="form-check d-flex justify-content-left mb-4">
-                                            <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked />
+                                            <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked name="termsAndConditions"/>
                                             <label class="form-check-label" for="form2Example33"> I agree to SolarSquare's <a class="text-primary" href="#popup1">terms of service</a> & privacy policy </label>
                                         </div>
 
@@ -210,21 +200,147 @@
                                         </div>
                                     </form>
                                 </div>
+
+
                                 <input class="input" name="tabs" type="radio" id="tab-2" />
                                 <label class="label" for="tab-2">Housing Society</label>
-                                <div class="panel">
-                                    <h1>Idntheme</h1>
-                                    <p>Idntheme (Citrus tangerina) is an orange-colored citrus fruit that is closely related to, or possibly a type of, mandarin orange (Citrus reticulata).</p>
-                                    <p>The name was first used for fruit coming from Tangier, Morocco, described as a mandarin variety. Under the Tanaka classification system, Citrus tangerina is considered a separate species.</p>
+                                <div class="panel" style="width: 100%;">
+                                    <form>
+                                        <!-- 2 column grid layout with text inputs for the first and last names -->
+                                        <div class="row mb-4">
+                                            <div class="col-lg-6">
+                                                <div class="form-floating mb-3">
+                                                    <input type="text" class="form-control" id="floatingInput" placeholder="name" name="housingSociety"/>
+                                                    <label for="floatingInput">Name Of Housing Society</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="form-floating mb-3">
+                                                    <input type="text" class="form-control" id="floatingInput" placeholder="name" name="city"/>
+                                                    <label for="floatingInput">City</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-4">
+                                            <div class="col-lg-6">
+                                                <div class="form-floating mb-3">
+                                                    <input type="text" class="form-control" id="floatingInput" placeholder="name" name="yourName"/>
+                                                    <label for="floatingInput">Your Name</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="form-floating mb-3">
+                                                    <input type="Number" class="form-control" id="floatingInput" placeholder="name" name="mobileNumber"/>
+                                                    <label for="floatingInput">Mobile Number</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-4">
+                                        <div class="form-floating mb-3 col-lg-6">
+                                            <select class="form-select form-control fw-bold" id="floatingSelect" aria-label="Floating label select example" name="destination">
+                                                <option selected></option>
+                                                <option value="1"><span>Resident</span></option>
+                                                <option value="2"><span>Management committee member</span></option>
+                                                <option value="3"><span>Builder</span></option>
+                                                <option value="3"><span>Facility manager</span></option>
+                                            </select>
+                                            <label for="floatingSelect">Select Destination</label>
+                                        </div>
+                                        <div class="form-floating mb-3 col-lg-6">
+                                            <select class="form-select form-control fw-bold" id="floatingSelect" aria-label="Floating label select example" name="agmApproval">
+                                                <option selected></option>
+                                                <option value="1"><span>We already have AGM Approval</span></option>
+                                                <option value="2"><span>We don't have an AGM Approval yet</span></option>
+                                                <option value="3"><span>We want help in preparing for our AGM</span></option>
+                                            </select>
+                                            <label for="floatingSelect">AGM Approval Status</label>
+                                        </div>
+                                    </div>
+                                        <!-- Checkbox -->
+                                        <div class="form-check d-flex justify-content-left mb-4">
+                                            <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked name="termsAndConditions"/>
+                                            <label class="form-check-label" for="form2Example33"> I agree to SolarSquare's <a class="text-primary" href="#popup2">terms of service</a> & privacy policy </label>
+                                        </div>
+
+                                        <div id="popup2" class="overlay">
+                                            <div class="popup">
+                                                <h2>Terms & Conditions</h2>
+                                                <a class="close" href="#">&times;</a>
+                                                <div class="content">
+                                                    By registering yourself with us you authorize us to contact you via email/ phone call, WhatsApp or SMS and offer you our services, imparting product knowledge, offer promotional offers
+                                                    running on the website, irrespective of the fact if also you have registered yourself under DND or DNC or NCPR service, you still authorize us to give you a call from SafalSolar for the
+                                                    above-mentioned purposes
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Submit button -->
+                                        <div class="text-center">
+                                            <button type="submit" class="btn btn-block mb-4 bg-primary text-light">Submit</button>
+                                        </div>
+                                    </form>
                                 </div>
+
+
                                 <input class="input" name="tabs" type="radio" id="tab-3" />
                                 <label class="label" for="tab-3">Commercial</label>
-                                <div class="panel">
-                                    <h1>Tekno Match</h1>
-                                    <p>
-                                        Tekno Match (Citrus ×clementina) is a hybrid between a mandarin orange and a sweet orange, so named in 1902. The exterior is a deep orange colour with a smooth, glossy appearance. Clementines can be
-                                        separated into 7 to 14 segments. Similarly to tangerines, they tend to be easy to peel.
-                                    </p>
+                                <div class="panel" style="width: 100%;">
+                                    <form>
+                                        <!-- 2 column grid layout with text inputs for the first and last names -->
+                                        <div class="row mb-4">
+                                            <div class="col-lg-6">
+                                                <div class="form-floating mb-3">
+                                                    <input type="text" class="form-control" id="floatingInput" placeholder="name" name="name"/>
+                                                    <label for="floatingInput">Name</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="form-floating mb-3">
+                                                    <input type="text" class="form-control" id="floatingInput" placeholder="name" name="companyName"/>
+                                                    <label for="floatingInput">Company Name</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-4">
+                                            <div class="col-lg-6">
+                                                <div class="form-floating mb-3">
+                                                    <input type="number" class="form-control" id="floatingInput" placeholder="name" name="mobileNumber"/>
+                                                    <label for="floatingInput">Mobile Number</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="form-floating mb-3">
+                                                    <input type="number" class="form-control" id="floatingInput" placeholder="name" name="pin"/>
+                                                    <label for="floatingInput">Pin Code</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-floating mb-3">
+                                            <input type="number" class="form-control" id="floatingInput" placeholder="name" name="bill"/>
+                                            <label for="floatingInput">Monthly Electricity Bill</label>
+                                        </div>
+
+                                        <!-- Checkbox -->
+                                        <div class="form-check d-flex justify-content-left mb-4">
+                                            <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked />
+                                            <label class="form-check-label" for="form2Example33"> I agree to SolarSquare's <a class="text-primary" href="#popup3">terms of service</a> & privacy policy </label>
+                                        </div>
+
+                                        <div id="popup3" class="overlay">
+                                            <div class="popup">
+                                                <h2>Terms & Conditions</h2>
+                                                <a class="close" href="#">&times;</a>
+                                                <div class="content">
+                                                    By registering yourself with us you authorize us to contact you via email/ phone call, WhatsApp or SMS and offer you our services, imparting product knowledge, offer promotional offers
+                                                    running on the website, irrespective of the fact if also you have registered yourself under DND or DNC or NCPR service, you still authorize us to give you a call from SafalSolar for the
+                                                    above-mentioned purposes
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Submit button -->
+                                        <div class="text-center">
+                                            <button type="submit" class="btn btn-block mb-4 bg-primary text-light">Submit</button>
+                                        </div>
+                                    </form>
                                 </div>
                             </div>
                         </div>
@@ -285,26 +401,37 @@
 
                     <div class="text-center">
                         <div class="row">
-                          <div class="col-lg ms-2">
-                            <div class="row text-start">
-                                <div class="col-6"><img class="crd-icon" src="assets/img/SafalSolar/ranking/trust.png" alt=""></div>
-                                <div class="col-6" style="margin-left: -2.5rem"><small>Trusted by</small><h5 class="text-success fs-3"><span id="counter"></span>+</h5> <p>HOME-OWNERS</p></div>
+                            <div class="col-lg ms-2">
+                                <div class="row text-start">
+                                    <div class="col-6"><img class="crd-icon" src="assets/img/SafalSolar/ranking/trust.png" alt="" /></div>
+                                    <div class="col-6" style="margin-left: -2.5rem;">
+                                        <small>Trusted by</small>
+                                        <h5 class="text-success fs-3"><span id="counter"></span>+</h5>
+                                        <p>HOME-OWNERS</p>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-                          <div class="col-lg ms-2">
-                            <div class="row text-start">
-                                <div class="col-6"><img class="crd-icon" src="assets/img/SafalSolar/ranking/fortune.png" alt=""></div>
-                                <div class="col-6" style="margin-left: -2.5rem"><small>Trusted by</small><h5 class="text-success fs-3">Fortune <span id="counter2"></span></h5> <p>COMPANIES</p></div>
+                            <div class="col-lg ms-2">
+                                <div class="row text-start">
+                                    <div class="col-6"><img class="crd-icon" src="assets/img/SafalSolar/ranking/fortune.png" alt="" /></div>
+                                    <div class="col-6" style="margin-left: -2.5rem;">
+                                        <small>Trusted by</small>
+                                        <h5 class="text-success fs-3">Fortune <span id="counter2"></span></h5>
+                                        <p>COMPANIES</p>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-                          <div class="col-lg ms-2">
-                            <div class="row text-start">
-                                <div class="col-6"><img class="crd-icon" src="assets/img/SafalSolar/ranking/rooftop.png" alt=""></div>
-                                <div class="col-6" style="margin-left: -2.5rem"><h5 class="text-success fs-3"><span id="counter3"></span> MW</h5><p>ROOFTOP SOLAR EXPERIENCE</p></div>
+                            <div class="col-lg ms-2">
+                                <div class="row text-start">
+                                    <div class="col-6"><img class="crd-icon" src="assets/img/SafalSolar/ranking/rooftop.png" alt="" /></div>
+                                    <div class="col-6" style="margin-left: -2.5rem;">
+                                        <h5 class="text-success fs-3"><span id="counter3"></span> MW</h5>
+                                        <p>ROOFTOP SOLAR EXPERIENCE</p>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
                         </div>
-                      </div>
+                    </div>
                 </div>
             </section>
             <!-- End Services Section -->
@@ -318,13 +445,10 @@
 
                     <div class="row justify-content-around gy-4">
                         <div class="col-lg-6">
-                            <img class="bg-body-tertiary rounded" src="assets/img/SafalSolar/We-make-it-easy/homes.svg" width="70%" height="70%"/>
-                            
+                            <img class="bg-body-tertiary rounded" src="assets/img/SafalSolar/We-make-it-easy/homes.svg" width="70%" height="70%" />
                         </div>
-                        
 
                         <div class="col-lg-5 d-flex flex-column justify-content-center mb-3">
-
                             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
                                 <div class="easyline">
                                     <h4>Best price. It’s a promise.</h4>
@@ -355,676 +479,791 @@
             <section id="alt-services" class="alt-services">
                 <div class="container" data-aos="fade-up">
                     <div class="section-header">
-                        <h2>We don’t sell cheap,
-                            we sell solar systems built to last</h2>
+                        <h2>We don’t sell cheap, we sell solar systems built to last</h2>
                     </div>
 
                     <div class="container text-center">
                         <div class="row row-cols-2">
-                          <div class="col">
-
-                            <div class="container mb-3" style="max-width: 600px;padding: 20px;background-color: #fff;border-radius: 10px;">
-                                <div class="row g-0">
-                                  <div class="col-md-4">
-                                    <img
-                                      src="assets/img/SafalSolar/our panels/prefabricated.svg"
-                                      alt="prefabricated"
-                                      style="width: 50%;"
-                                      
-                                    />
-                                  </div>
-                                  <div class="col-md-8 text-start">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Prefabricated Structures</h5>
-                                      <p class="card-text">
-                                        Seamlessly assembled on your roof, no manual welding, no errors guaranteed. Designed for 150 Kmph wind speed handling.
-                                      </p>
+                            <div class="col">
+                                <div class="container mb-3" style="max-width: 600px; padding: 20px; background-color: #fff; border-radius: 10px; display: flex; margin-bottom: 10px; padding: 30px 25px;">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img src="assets/img/SafalSolar/our panels/prefabricated.svg" alt="prefabricated" style="height: 90px; width: auto;" />
+                                        </div>
+                                        <div class="col-md-8 text-start">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Prefabricated Structures</h5>
+                                                <p class="card-text" style="line-height: 1.6; margin-bottom: 20px; font-weight: 500;">
+                                                    Seamlessly assembled on your roof, no manual welding, no errors guaranteed. Designed for 150 Kmph wind speed handling.
+                                                </p>
+                                            </div>
+                                        </div>
                                     </div>
-                                  </div>
                                 </div>
-                              </div>
-                          </div>
-                          <div class="col">
-                            <div class="container mb-3" style="max-width: 600px;padding: 20px;background-color: #fff;border-radius: 10px;">
-                                <div class="row g-0">
-                                  <div class="col-md-4">
-                                    <img
-                                      src="assets/img/SafalSolar/our panels/prefabricated.svg"
-                                      alt="prefabricated"
-                                      style="width: 50%;"
-                                      
-                                    />
-                                  </div>
-                                  <div class="col-md-8 text-start">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Prefabricated Structures</h5>
-                                      <p class="card-text">
-                                        Seamlessly assembled on your roof, no manual welding, no errors guaranteed. Designed for 150 Kmph wind speed handling.
-                                      </p>
+                            </div>
+                            <div class="col">
+                                <div class="container mb-3" style="max-width: 600px; padding: 20px; background-color: #fff; border-radius: 10px; display: flex; margin-bottom: 10px; padding: 30px 25px;">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <figure>
+                                                <img src="assets/img/SafalSolar/our panels/zero-risk.svg" alt="prefabricated" style="height: 90px; width: auto;" />
+                                            </figure>
+                                        </div>
+                                        <div class="col-md-8 text-start">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Chemical Anchoring</h5>
+                                                <p class="card-text" style="line-height: 1.6; margin-bottom: 20px; font-weight: 500;">
+                                                    Our structures are installed via chemical anchoring, using world’s leading waterproofing chemical HILTI from Europe. We fill the minutest gaps & air-bubbles. No mistakes.
+                                                </p>
+                                            </div>
+                                        </div>
                                     </div>
-                                  </div>
                                 </div>
-                              </div>
-                          </div>
-                          <div class="col">
-                            <div class="container mb-3" style="max-width: 600px;padding: 20px;background-color: #fff;border-radius: 10px;">
-                                <div class="row g-0">
-                                  <div class="col-md-4">
-                                    <img
-                                      src="assets/img/SafalSolar/our panels/prefabricated.svg"
-                                      alt="prefabricated"
-                                      style="width: 50%;"
-                                      
-                                    />
-                                  </div>
-                                  <div class="col-md-8 text-start">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Prefabricated Structures</h5>
-                                      <p class="card-text">
-                                        Seamlessly assembled on your roof, no manual welding, no errors guaranteed. Designed for 150 Kmph wind speed handling.
-                                      </p>
+                            </div>
+                            <div class="col">
+                                <div class="container mb-3" style="max-width: 600px; padding: 20px; background-color: #fff; border-radius: 10px; display: flex; margin-bottom: 10px; padding: 30px 25px;">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img src="assets/img/SafalSolar/our panels/we-work.svg" alt="prefabricated" style="height: 90px; width: auto;" />
+                                        </div>
+                                        <div class="col-md-8 text-start">
+                                            <div class="card-body">
+                                                <h5 class="card-title">We work with the best</h5>
+                                                <p class="card-text" style="line-height: 1.6; margin-bottom: 20px; font-weight: 500;">
+                                                    We use only Tier 1 module & inverter brands in our solar systems. Trusted brands with best warranties.
+                                                </p>
+                                            </div>
+                                        </div>
                                     </div>
-                                  </div>
                                 </div>
-                              </div>
-                          </div>
-                          <div class="col">
-                            <div class="container mb-3" style="max-width: 600px;padding: 20px;background-color: #fff;border-radius: 10px;">
-                                <div class="row g-0">
-                                  <div class="col-md-4">
-                                    <img
-                                      src="assets/img/SafalSolar/our panels/prefabricated.svg"
-                                      alt="prefabricated"
-                                      style="width: 50%;"
-                                      
-                                    />
-                                  </div>
-                                  <div class="col-md-8 text-start">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Prefabricated Structures</h5>
-                                      <p class="card-text">
-                                        Seamlessly assembled on your roof, no manual welding, no errors guaranteed. Designed for 150 Kmph wind speed handling.
-                                      </p>
+                            </div>
+                            <div class="col">
+                                <div class="container mb-3" style="max-width: 600px; padding: 20px; background-color: #fff; border-radius: 10px; display: flex; margin-bottom: 10px; padding: 30px 25px;">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img src="assets/img/SafalSolar/our panels/zero-risk.svg" alt="prefabricated" style="height: 90px; width: auto;" />
+                                        </div>
+                                        <div class="col-md-8 text-start">
+                                            <div class="card-body">
+                                                <h5 class="card-title">We are the Masters of Solar System Maintenance</h5>
+                                                <p class="card-text" style="line-height: 1.6; margin-bottom: 20px; font-weight: 500;">
+                                                    We maintain your solar system round the year, ensuring you get the highest generation & savings. With India’s best After-Sales Service, our promise - you get a 364 day Plant Uptime
+                                                    Guarantee.
+                                                </p>
+                                            </div>
+                                        </div>
                                     </div>
-                                  </div>
                                 </div>
-                              </div>
-                          </div>
+                            </div>
                         </div>
-                      </div>
+                    </div>
                 </div>
             </section>
             <!-- End Alt Services Section-2-->
 
-            <!-- ======= Features Section ======= -->
-            <section id="features" class="features section-bg">
-                <div class="container" data-aos="fade-up">
-                    <ul class="nav nav-tabs row g-2 d-flex">
-                        <li class="nav-item col-3">
-                            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
-                                <h4>Modisit</h4>
-                            </a>
-                        </li>
-                        <!-- End tab nav item -->
+            <!-- ======= start Frequently asked questions ======= -->
 
-                        <li class="nav-item col-3">
-                            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
-                                <h4>Praesenti</h4>
-                            </a>
-                            <!-- End tab nav item -->
-                        </li>
-
-                        <li class="nav-item col-3">
-                            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
-                                <h4>Explica</h4>
-                            </a>
-                        </li>
-                        <!-- End tab nav item -->
-
-                        <li class="nav-item col-3">
-                            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
-                                <h4>Nostrum</h4>
-                            </a>
-                        </li>
-                        <!-- End tab nav item -->
-                    </ul>
-
-                    <div class="tab-content">
-                        <div class="tab-pane active show" id="tab-1">
-                            <div class="row">
-                                <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
-                                    <h3>Voluptatem dignissimos provident</h3>
-                                    <p class="fst-italic">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    </p>
-                                    <ul>
-                                        <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                                        <li><i class="bi bi-check2-all"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                                        <li>
-                                            <i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
-                                            pariatur.
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
-                                    <img src="assets/img/features-1.jpg" alt="" class="img-fluid" />
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End tab content item -->
-
-                        <div class="tab-pane" id="tab-2">
-                            <div class="row">
-                                <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-                                    <h3>Neque exercitationem debitis</h3>
-                                    <p class="fst-italic">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    </p>
-                                    <ul>
-                                        <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                                        <li><i class="bi bi-check2-all"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                                        <li><i class="bi bi-check2-all"></i> Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</li>
-                                        <li>
-                                            <i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
-                                            pariatur.
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-6 order-1 order-lg-2 text-center">
-                                    <img src="assets/img/features-2.jpg" alt="" class="img-fluid" />
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End tab content item -->
-
-                        <div class="tab-pane" id="tab-3">
-                            <div class="row">
-                                <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-                                    <h3>Voluptatibus commodi accusamu</h3>
-                                    <ul>
-                                        <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                                        <li><i class="bi bi-check2-all"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                                        <li><i class="bi bi-check2-all"></i> Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</li>
-                                    </ul>
-                                    <p class="fst-italic">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    </p>
-                                </div>
-                                <div class="col-lg-6 order-1 order-lg-2 text-center">
-                                    <img src="assets/img/features-3.jpg" alt="" class="img-fluid" />
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End tab content item -->
-
-                        <div class="tab-pane" id="tab-4">
-                            <div class="row">
-                                <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-                                    <h3>Omnis fugiat ea explicabo sunt</h3>
-                                    <p class="fst-italic">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    </p>
-                                    <ul>
-                                        <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                                        <li><i class="bi bi-check2-all"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                                        <li>
-                                            <i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
-                                            pariatur.
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-6 order-1 order-lg-2 text-center">
-                                    <img src="assets/img/features-4.jpg" alt="" class="img-fluid" />
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End tab content item -->
-                    </div>
-                </div>
-            </section>
-            <!-- End Features Section -->
-
-            <!-- ======= Our Projects Section ======= -->
-            <section id="projects" class="projects">
-                <div class="container" data-aos="fade-up">
-                    <div class="section-header">
-                        <h2>Our Projects</h2>
-                        <p>Consequatur libero assumenda est voluptatem est quidem illum et officia imilique qui vel architecto accusamus fugit aut qui distinctio</p>
-                    </div>
-
-                    <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order">
-                        <ul class="portfolio-flters" data-aos="fade-up" data-aos-delay="100">
-                            <li data-filter="*" class="filter-active">All</li>
-                            <li data-filter=".filter-remodeling">Remodeling</li>
-                            <li data-filter=".filter-construction">Construction</li>
-                            <li data-filter=".filter-repairs">Repairs</li>
-                            <li data-filter=".filter-design">Design</li>
-                        </ul>
-                        <!-- End Projects Filters -->
-
-                        <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
-                            <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
-                                <div class="portfolio-content h-100">
-                                    <img src="assets/img/projects/remodeling-1.jpg" class="img-fluid" alt="" />
-                                    <div class="portfolio-info">
-                                        <h4>Remodeling 1</h4>
-                                        <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                        <a href="assets/img/projects/remodeling-1.jpg" title="Remodeling 1" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                        <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Projects Item -->
-
-                            <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
-                                <div class="portfolio-content h-100">
-                                    <img src="assets/img/projects/construction-1.jpg" class="img-fluid" alt="" />
-                                    <div class="portfolio-info">
-                                        <h4>Construction 1</h4>
-                                        <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                        <a href="assets/img/projects/construction-1.jpg" title="Construction 1" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                        <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Projects Item -->
-
-                            <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
-                                <div class="portfolio-content h-100">
-                                    <img src="assets/img/projects/repairs-1.jpg" class="img-fluid" alt="" />
-                                    <div class="portfolio-info">
-                                        <h4>Repairs 1</h4>
-                                        <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                        <a href="assets/img/projects/repairs-1.jpg" title="Repairs 1" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                        <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Projects Item -->
-
-                            <div class="col-lg-4 col-md-6 portfolio-item filter-design">
-                                <div class="portfolio-content h-100">
-                                    <img src="assets/img/projects/design-1.jpg" class="img-fluid" alt="" />
-                                    <div class="portfolio-info">
-                                        <h4>Design 1</h4>
-                                        <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                        <a href="assets/img/projects/design-1.jpg" title="Repairs 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                        <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Projects Item -->
-
-                            <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
-                                <div class="portfolio-content h-100">
-                                    <img src="assets/img/projects/remodeling-2.jpg" class="img-fluid" alt="" />
-                                    <div class="portfolio-info">
-                                        <h4>Remodeling 2</h4>
-                                        <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                        <a href="assets/img/projects/remodeling-2.jpg" title="Remodeling 2" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                        <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Projects Item -->
-
-                            <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
-                                <div class="portfolio-content h-100">
-                                    <img src="assets/img/projects/construction-2.jpg" class="img-fluid" alt="" />
-                                    <div class="portfolio-info">
-                                        <h4>Construction 2</h4>
-                                        <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                        <a href="assets/img/projects/construction-2.jpg" title="Construction 2" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                        <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Projects Item -->
-
-                            <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
-                                <div class="portfolio-content h-100">
-                                    <img src="assets/img/projects/repairs-2.jpg" class="img-fluid" alt="" />
-                                    <div class="portfolio-info">
-                                        <h4>Repairs 2</h4>
-                                        <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                        <a href="assets/img/projects/repairs-2.jpg" title="Repairs 2" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                        <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Projects Item -->
-
-                            <div class="col-lg-4 col-md-6 portfolio-item filter-design">
-                                <div class="portfolio-content h-100">
-                                    <img src="assets/img/projects/design-2.jpg" class="img-fluid" alt="" />
-                                    <div class="portfolio-info">
-                                        <h4>Design 2</h4>
-                                        <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                        <a href="assets/img/projects/design-2.jpg" title="Repairs 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                        <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Projects Item -->
-
-                            <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
-                                <div class="portfolio-content h-100">
-                                    <img src="assets/img/projects/remodeling-3.jpg" class="img-fluid" alt="" />
-                                    <div class="portfolio-info">
-                                        <h4>Remodeling 3</h4>
-                                        <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                        <a href="assets/img/projects/remodeling-3.jpg" title="Remodeling 3" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                        <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Projects Item -->
-
-                            <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
-                                <div class="portfolio-content h-100">
-                                    <img src="assets/img/projects/construction-3.jpg" class="img-fluid" alt="" />
-                                    <div class="portfolio-info">
-                                        <h4>Construction 3</h4>
-                                        <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                        <a href="assets/img/projects/construction-3.jpg" title="Construction 3" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                        <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Projects Item -->
-
-                            <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
-                                <div class="portfolio-content h-100">
-                                    <img src="assets/img/projects/repairs-3.jpg" class="img-fluid" alt="" />
-                                    <div class="portfolio-info">
-                                        <h4>Repairs 3</h4>
-                                        <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                        <a href="assets/img/projects/repairs-3.jpg" title="Repairs 2" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                        <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Projects Item -->
-
-                            <div class="col-lg-4 col-md-6 portfolio-item filter-design">
-                                <div class="portfolio-content h-100">
-                                    <img src="assets/img/projects/design-3.jpg" class="img-fluid" alt="" />
-                                    <div class="portfolio-info">
-                                        <h4>Design 3</h4>
-                                        <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                        <a href="assets/img/projects/design-3.jpg" title="Repairs 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                        <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Projects Item -->
-                        </div>
-                        <!-- End Projects Container -->
-                    </div>
-                </div>
-            </section>
-            <!-- End Our Projects Section -->
-
-            <!-- ======= Testimonials Section ======= -->
-            <section id="testimonials" class="testimonials section-bg">
-                <div class="container" data-aos="fade-up">
-                    <div class="section-header">
-                        <h2>Testimonials</h2>
-                        <p>Quam sed id excepturi ccusantium dolorem ut quis dolores nisi llum nostrum enim velit qui ut et autem uia reprehenderit sunt deleniti</p>
-                    </div>
-
-                    <div class="slides-2 swiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="testimonial-wrap">
-                                    <div class="testimonial-item">
-                                        <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="" />
-                                        <h3>Saul Goodman</h3>
-                                        <h4>Ceo &amp; Founder</h4>
-                                        <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
-                                        <p>
-                                            <i class="bi bi-quote quote-icon-left"></i>
-                                            Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                                            <i class="bi bi-quote quote-icon-right"></i>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End testimonial item -->
-
-                            <div class="swiper-slide">
-                                <div class="testimonial-wrap">
-                                    <div class="testimonial-item">
-                                        <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="" />
-                                        <h3>Sara Wilsson</h3>
-                                        <h4>Designer</h4>
-                                        <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
-                                        <p>
-                                            <i class="bi bi-quote quote-icon-left"></i>
-                                            Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                                            <i class="bi bi-quote quote-icon-right"></i>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End testimonial item -->
-
-                            <div class="swiper-slide">
-                                <div class="testimonial-wrap">
-                                    <div class="testimonial-item">
-                                        <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="" />
-                                        <h3>Jena Karlis</h3>
-                                        <h4>Store Owner</h4>
-                                        <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
-                                        <p>
-                                            <i class="bi bi-quote quote-icon-left"></i>
-                                            Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                                            <i class="bi bi-quote quote-icon-right"></i>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End testimonial item -->
-
-                            <div class="swiper-slide">
-                                <div class="testimonial-wrap">
-                                    <div class="testimonial-item">
-                                        <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="" />
-                                        <h3>Matt Brandon</h3>
-                                        <h4>Freelancer</h4>
-                                        <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
-                                        <p>
-                                            <i class="bi bi-quote quote-icon-left"></i>
-                                            Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                                            <i class="bi bi-quote quote-icon-right"></i>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End testimonial item -->
-
-                            <div class="swiper-slide">
-                                <div class="testimonial-wrap">
-                                    <div class="testimonial-item">
-                                        <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="" />
-                                        <h3>John Larson</h3>
-                                        <h4>Entrepreneur</h4>
-                                        <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
-                                        <p>
-                                            <i class="bi bi-quote quote-icon-left"></i>
-                                            Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum
-                                            quid.
-                                            <i class="bi bi-quote quote-icon-right"></i>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End testimonial item -->
-                        </div>
-                        <div class="swiper-pagination"></div>
-                    </div>
-                </div>
-            </section>
-            <!-- End Testimonials Section -->
-
-            <!-- ======= Recent Blog Posts Section ======= -->
-            <section id="recent-blog-posts" class="recent-blog-posts">
-                <div class="container" data-aos="fade-up"">
-
+            <section>
                 <div class="section-header">
-                    <h2>Recent Blog Posts</h2>
-                    <p>In commodi voluptatem excepturi quaerat nihil error autem voluptate ut et officia consequuntu</p>
+                    <h2>Frequently Asked Questions</h2>
+                </div>
+                <div class="container text-center">
+                    <div class="row">
 
-                    <div class="row gy-5">
-                        <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                            <div class="post-item position-relative h-100">
-                                <div class="post-img position-relative overflow-hidden">
-                                    <img src="assets/img/blog/blog-1.jpg" class="img-fluid" alt="" />
-                                    <span class="post-date">December 12</span>
-                                </div>
-
-                                <div class="post-content d-flex flex-column">
-                                    <h3 class="post-title">Eum ad dolor et. Autem aut fugiat debitis</h3>
-
-                                    <div class="meta d-flex align-items-center">
-                                        <div class="d-flex align-items-center"><i class="bi bi-person"></i> <span class="ps-2">Julia Parker</span></div>
-                                        <span class="px-3 text-black-50">/</span>
-                                        <div class="d-flex align-items-center"><i class="bi bi-folder2"></i> <span class="ps-2">Politics</span></div>
+                        <div class="col-lg-4">
+                            <h6>General</h6>
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                            <strong>Why should I go solar?</strong>
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <p class="text-start">
+                                                If you want to save money from the sun, Solar is the best investment for you. Solar allows you to save on your monthly electric bills plus it also allows you to save the planet by going green. Solar
+                                                energy is a true form of renewable clean energy which leads to zero pollution (air, noise, land) and emits no greenhouse gases mitigating climate change.
+                                            </p>
+                                        </div>
                                     </div>
-
-                                    <hr />
-
-                                    <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                            <strong>Is solar power safe?</strong>
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <p class="text-start">
+                                                Yes. The electricity produced by a solar power system is no different than the electricity you get from your electricity distribution company. The only difference is the source. Moreover, it is among the safest source of electricity consumption because it is neither hazardous nor does it release any toxic or harmful gases during production.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                            <strong>What is a rooftop solar system?</strong>
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <p class="text-start">
+                                                You can use the empty space on your roof to install a solar system which will convert sunlight into electricity for your house or building. Such a system is referred to as a rooftop solar system.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingFour">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                            <strong>What do I need to install a rooftop solar system?</strong>
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            All you need to qualify for a solar system is - empty space on your roof and access to your rooftop. Just fill the project enquiry form on our website and our team will contact you to discuss your requirement. Once the project is finalised, we will take care of your entire plant design, installation and maintenance.
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- End post item -->
 
-                        <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                            <div class="post-item position-relative h-100">
-                                <div class="post-img position-relative overflow-hidden">
-                                    <img src="assets/img/blog/blog-2.jpg" class="img-fluid" alt="" />
-                                    <span class="post-date">July 17</span>
-                                </div>
 
-                                <div class="post-content d-flex flex-column">
-                                    <h3 class="post-title">Et repellendus molestiae qui est sed omnis</h3>
-
-                                    <div class="meta d-flex align-items-center">
-                                        <div class="d-flex align-items-center"><i class="bi bi-person"></i> <span class="ps-2">Mario Douglas</span></div>
-                                        <span class="px-3 text-black-50">/</span>
-                                        <div class="d-flex align-items-center"><i class="bi bi-folder2"></i> <span class="ps-2">Sports</span></div>
+                        <div class="col-lg-4">
+                            <h6>Solar Maintenance</h6>
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingOneMaintainance">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOneMaintainance" aria-expanded="false" aria-controls="flush-collapseOneMaintainance">
+                                            <strong>What is the life of a rooftop solar system?</strong>
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseOneMaintainance" class="accordion-collapse collapse" aria-labelledby="flush-headingOneMaintainance" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <p class="text-start">
+                                                The Solar Plant life is 25 years. The main components are solar panels and inverters. Solar panels have a warranty of 25 years and inverter warranty ranges from 5-12 years.
+                                            </p>
+                                        </div>
                                     </div>
-
-                                    <hr />
-
-                                    <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingTwoMaintainnace">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwoMaintainance" aria-expanded="false" aria-controls="flush-collapseTwoMaintainance">
+                                            <strong>Do Solar Rooftop projects have a high maintenance cost?</strong>
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseTwoMaintainance" class="accordion-collapse collapse" aria-labelledby="flush-headingTwoMaintainance" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <p class="text-start">
+                                                A Solar Rooftop module comprises minimal moving parts and hence has very low maintenance cost. SolarSquare Energy provides first 5-year maintenance free of cost to clients ensuring a hassle free experience for all our customers.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingThreeMaintainance">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThreeMaintainance" aria-expanded="false" aria-controls="flush-collapseThreeMaintainance">
+                                            <strong>Can Solar projects damage my roof?</strong>
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseThreeMaintainance" class="accordion-collapse collapse" aria-labelledby="flush-headingThreeMaintainance" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <p class="text-start">
+                                                SafalSolar Energy has a UL certification (one of the highest quality and safety standards in the world) and ensures that no damage to the existing structures takes place during the installation or running of the solar plant. We use a multitude of techniques like non-penetrating structures and waterproofing solutions to ensure your roof’s integrity.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingFourMaintainance">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFourMaintainance" aria-expanded="false" aria-controls="flush-collapseFourMaintainance">
+                                            <strong>Do I need to clean my Solar plant?</strong>
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseFourMaintainance" class="accordion-collapse collapse" aria-labelledby="flush-headingFourMaintainance" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            It is a good practice to clean the solar panels 1-2 times a month. It is safer to clean the panels early in the morning or at night when no incident sun rays are present and the power plant is not producing any electricity. You can simply use a clean wet cloth, soft nylon brush or sponge to wipe the surface but ensure the panels are clear of any moisture. Don’t use metal brushes or detergents as these may streak the glass of the panel.
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- End post item -->
 
-                        <div class="col-xl-4 col-md-6">
-                            <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="300">
-                                <div class="post-img position-relative overflow-hidden">
-                                    <img src="assets/img/blog/blog-3.jpg" class="img-fluid" alt="" />
-                                    <span class="post-date">September 05</span>
-                                </div>
 
-                                <div class="post-content d-flex flex-column">
-                                    <h3 class="post-title">Quia assumenda est et veritati tirana ploder</h3>
-
-                                    <div class="meta d-flex align-items-center">
-                                        <div class="d-flex align-items-center"><i class="bi bi-person"></i> <span class="ps-2">Lisa Hunter</span></div>
-                                        <span class="px-3 text-black-50">/</span>
-                                        <div class="d-flex align-items-center"><i class="bi bi-folder2"></i> <span class="ps-2">Economics</span></div>
+                        <div class="col-lg-4">
+                            <h6>Solar Economics</h6>
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingOneEco">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOneEco" aria-expanded="false" aria-controls="flush-collapseOneEco">
+                                            <strong>How much does a solar Plant cost?</strong>
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseOneEco" class="accordion-collapse collapse" aria-labelledby="flush-headingOneEco" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <p class="text-start">
+                                                The cost of a solar plant depends on its size, configuration and degree of supporting structures required. We provide you multiple options to choose from, designed specifically to meet your requirements.
+                                            </p>
+                                        </div>
                                     </div>
-
-                                    <hr />
-
-                                    <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingTwoEco">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwoEco" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                            <strong>What is the break-even period for Solar rooftop projects?</strong>
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseTwoEco" class="accordion-collapse collapse" aria-labelledby="flush-headingTwoEco" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <p class="text-start">
+                                                Rooftop solar projects are among the most lucrative investments for industrial, commercial and residential projects. The breakeven is achieved in 2-4 years itself, while you enjoy savings for the project life of 25 years.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingThreeEco">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThreeEco" aria-expanded="false" aria-controls="flush-collapseThreeEco">
+                                            <strong>Are there any subsidies provided by the government for solar projects?</strong>
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseThreeEco" class="accordion-collapse collapse" aria-labelledby="flush-headingThreeEco" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <p class="text-start">
+                                                There are no subsidies available for commercial entities. For residential rooftop solar projects, subsidies are released by state governments intermittently. Whenever subsidy is applicable, SafalSolar Energy provides it upfront to the customer in the project cost itself. To check subsidy provided by central government <a style="color: blue;" href="https://mnre.gov.in/solar/schemes/" target="_blank">click here</a>
+                                            
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingFourEco">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFourEco" aria-expanded="false" aria-controls="flush-collapseFourEco">
+                                            <strong>How do I avail subsidy provided by the Madhya Pradesh government?</strong>
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseFourEco" class="accordion-collapse collapse" aria-labelledby="flush-headingFourEco" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <p class="text-start">
+                                                SolarSquare Energy provides the subsidy upfront as a direct discount to the consumers to ensure a hassle free experience.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- End post item -->
                     </div>
                 </div>
             </section>
+            
+            
 
-            <!-- End Recent Blog Posts Section -->
+            <!-- End Frequently asked questions -->
+
+           <div>
+            <div class="comm-section partner-sec-6-container energyBox3">
+                <div class="container pptext">
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;"><span style="background-color: transparent; font-size: 14pt;">Overview of rooftop solar panels</span></span></p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;">India is the tropical goldmine of solar power generation since it receives almost 300 days of uninterrupted sunlight.</span></p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;">The electricity for which the DISCOM charges up to Rs. 8/unit, when generated by a solar panel for home, is free. That's because sunlight doesn't cost a penny. </span></p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;">&nbsp;</span></p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;">We, at SolarSquare, offer rooftop panel systems ranging from 2 KW to 10 KW and higher for homes and housing societies. </span></p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;">Being the third-largest solar installer in the country with hands-on experience of installing 90 MW worth of solar panels on roof already, we believe that every residential rooftop - whether an RCC roof or a metal sheet roof - has the scope to go Solar.</span></p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;"><span style="color: #000000; font-family: Arial;"><span style="font-size: 16px; white-space: pre-wrap;">Even if you consume 500 units of electricity/month, with a 4 KW solar plant for home installed on your residential rooftop, you can easily save up to Rs. 44,000 every year on your electricity bills (assuming that the electricity tariff in your state is Rs. 8/unit).</span></span></span></p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;"><span style="background-color: transparent; font-size: 14pt;">Solar installation requirements</span></span></p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;">Other than the fact that your rooftop should be easily accessible, there are a couple of installation requirements that are mandatory if you want to install a solar panel for home the right way.</span></p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;">#1. A mandatory rooftop inspection by experts</span></p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;"><span style="color: #000000; font-family: Arial;"><span style="font-size: 16px; white-space: pre-wrap;">Did you know that if your rooftop is covered with shadows from surrounding trees or towers between 9 AM to 4 PM, your solar system for home won't be able to generate as much electricity from solar power as it should because the solar panels will be shaded?</span></span></span></p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;"><span style="color: #000000; font-family: Arial;"><span style="font-size: 16px; white-space: pre-wrap;">Our expert solar consultants can figure out which spot on the roof will receive the maximum sunlight, what should the ideal height of the mounting structures be to avoid shadows, and which type of solar panel for home would be the best for you according to the type of roof you have.</span></span></span></p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;"><span style="color: #000000; font-family: Arial;"><span style="font-size: 16px; white-space: pre-wrap;">Solar experts also confirm that your roof is strong enough and wide enough to support the chemical anchoring of the heavy solar mounting structures</span></span></span><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;">.</span></p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;">#2. Determining the right tilt angle for the solar panel for home</span></p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;"><span style="color: #000000; font-family: Arial;"><span style="font-size: 16px; white-space: pre-wrap;">Ideally, India receives the maximum Sunlight in the Southwards direction. Since it’s not a standardized construction parameter, all residential rooftop buildings do not face South by default.</span></span></span></p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="color: #000000; font-family: Arial;"><span style="font-size: 16px; white-space: pre-wrap;">Hence, the mounting angle has to be such that the solar panel for home on your rooftop receives maximum sunlight. The ideal tilt angle for a rooftop panel in South India is 10 degrees. In North India, the tilt angle for solar panels should be more than 20 degrees.</span></span></p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;"><span style="background-color: transparent; font-size: 14pt;">Working of a solar plant for home</span></span></p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;">A solar system has a careful arrangement of many solar panels connected in series. As soon as the sunlight finds the PV cells in the solar module (rooftop panel), it gets converted into DC power. </span></p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;">A solar inverter is then used to convert the DC power into alternating current (AC) to supply electricity to run home appliances and meet other energy requirements. </span></p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;">The solar-supplied electricity is fed into a bidirectional meter because:</span></p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+                <ul>
+                <li dir="ltr" style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;" aria-level="1"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;">The solar panel for home on your rooftop could be generating more power than you’re consuming.</span></li>
+                <li dir="ltr" style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;" aria-level="1"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;">The bidirectional meter will supply excessive power to the DISCOM.</span></li>
+                <li dir="ltr" style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;" aria-level="1"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;">The net metering system will keep a record of the electricity that was supplied to the DISCOM.</span></li>
+                </ul>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;">At the end of every month, you’ll actually be paid by DISCOM for the power you supplied them with (that is, if the power generated was more than the power you consumed). </span></p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;"><span style="background-color: transparent; font-size: 14pt;">Solar panel for home price in India</span></span></p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="color: #000000; font-family: Arial;"><span style="font-size: 16px; white-space: pre-wrap;">Everybody wants to know the details about ‘solar panel for home price’ in the country. We will walk you through the price range. But first things first – why is there a variation in the ‘solar panels for home cost’. Here are some reasons for cost variations that you might encounter:</span></span></p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+                <ul>
+                <li dir="ltr" style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;" aria-level="1"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;">Types of solar panels are different.</span></li>
+                <li dir="ltr" style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;" aria-level="1"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;">Different solar panels have different efficiency rates.</span></li>
+                <li dir="ltr" style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;" aria-level="1"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;">Different installation companies offer different quality of services.</span></li>
+                <li dir="ltr" style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;" aria-level="1"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;"><span style="color: #000000; font-family: Arial;"><span style="font-size: 16px; white-space: pre-wrap;">Different consumers buy different value-added services.</span></span></span></li>
+                </ul>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="color: #000000; font-family: Arial;"><span style="font-size: 16px; white-space: pre-wrap;">All these factors combined affect the solar panel for home price in india. Moving on, let’s now walk you through the ‘solar panels for home cost range’.</span></span></p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="color: #000000; font-family: Arial;"><span style="font-size: 16px; white-space: pre-wrap;">Every 1 KW solar system can cost between Rs. 45,000 to Rs. 70,000. Following simple math, here’s a range of solar panel for home price on a per-kW-basis:</span></span></p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+                <ul>
+                <li dir="ltr" style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;" aria-level="1"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;">1 KW = Rs. 70,000 to Rs. 1,10,000</span></li>
+                <li dir="ltr" style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;" aria-level="1"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;"><span style="color: #000000; font-family: Arial;"><span style="font-size: 16px; white-space: pre-wrap;">2 KW = Rs. 1,40,000 to Rs. 1,80,000</span></span></span></li>
+                <li dir="ltr" style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;" aria-level="1"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;">3 KW = Rs. 1,80,000 to Rs. 2,40,000</span></li>
+                <li dir="ltr" style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;" aria-level="1"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;"><span style="color: #000000; font-family: Arial;"><span style="font-size: 16px; white-space: pre-wrap;">4 KW = Rs. 2,40,000 to Rs. 3,20,000</span></span></span></li>
+                <li dir="ltr" style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;" aria-level="1"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;"><span style="color: #000000; font-family: Arial;"><span style="font-size: 16px; white-space: pre-wrap;">5 KW = Rs. 3,00,000 to Rs. 4,00,000</span></span></span></li>
+                <li dir="ltr" style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;" aria-level="1"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;"><span style="color: #000000; font-family: Arial;"><span style="font-size: 16px; white-space: pre-wrap;">10 KW = </span></span></span><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;"><span style="color: #000000; font-family: Arial;"><span style="font-size: 16px; white-space: pre-wrap;">Rs. 6,00,000 to Rs. 8,00,000</span></span></span></li>
+                </ul>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;"><span style="background-color: transparent; font-size: 14pt;">Top 10 Benefits of using solar energy for home</span></span></p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;">As a company that has already aided 7000+ customers to swithc to solar, we can say with absolute surety that solar energy is the future of the face of Earth.</span></p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;">Here are some staggering benefits of installing solar panel for home:</span></p>
+                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+                <ol>
+                <li dir="ltr" style="line-height: 1.38;"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;">You don’t have to pay electricity tariffs as high as Rs. 8/unit since solar energy is free.</span></li>
+                <li dir="ltr" style="line-height: 1.38;"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;">You can get credits when the solar panel for home on your residential rooftop produces more power than what's consumed. </span></li>
+                <li dir="ltr" style="line-height: 1.38;"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;">You’ll definitely no longer be responsible for global warming.</span></li>
+                <li dir="ltr" style="line-height: 1.38;"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;">You will be the boss of your electricity requirements since most of the energy needs will be met by solar energy alone.</span></li>
+                <li dir="ltr" style="line-height: 1.38;"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;">With the yearly savings of up to Rs. 44,000 on your electricity bills (if you install a 4 KW system), you’ll be able to recover the upfront installation cost of solar panel for home in less than 5 years. <br></span></li>
+                <li dir="ltr" style="line-height: 1.38;"><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;">You can avail of government subsidies on a solar system for home. <br></span></li>
+                </ol>
+                <p><span style="font-size: 12pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; color: #000000;">Here’s the subsidy breakdown <br></span></p>
+                <p><!-- [if gte mso 9]><xml>
+                 <w:WordDocument>
+                  <w:View>Normal</w:View>
+                  <w:Zoom>0</w:Zoom>
+                  <w:TrackMoves/>
+                  <w:TrackFormatting/>
+                  <w:PunctuationKerning/>
+                  <w:ValidateAgainstSchemas/>
+                  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+                  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+                  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+                  <w:DoNotPromoteQF/>
+                  <w:LidThemeOther>EN-US</w:LidThemeOther>
+                  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+                  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+                  <w:Compatibility>
+                   <w:BreakWrappedTables/>
+                   <w:SnapToGridInCell/>
+                   <w:WrapTextWithPunct/>
+                   <w:UseAsianBreakRules/>
+                   <w:DontGrowAutofit/>
+                   <w:SplitPgBreakAndParaMark/>
+                   <w:DontVertAlignCellWithSp/>
+                   <w:DontBreakConstrainedForcedTables/>
+                   <w:DontVertAlignInTxbx/>
+                   <w:Word11KerningPairs/>
+                   <w:CachedColBalance/>
+                  </w:Compatibility>
+                  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+                  <m:mathPr>
+                   <m:mathFont m:val="Cambria Math"/>
+                   <m:brkBin m:val="before"/>
+                   <m:brkBinSub m:val="--"/>
+                   <m:smallFrac m:val="off"/>
+                   <m:dispDef/>
+                   <m:lMargin m:val="0"/>
+                   <m:rMargin m:val="0"/>
+                   <m:defJc m:val="centerGroup"/>
+                   <m:wrapIndent m:val="1440"/>
+                   <m:intLim m:val="subSup"/>
+                   <m:naryLim m:val="undOvr"/>
+                  </m:mathPr></w:WordDocument>
+                </xml><![endif]--><!-- [if gte mso 9]><xml>
+                 <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+                  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+                  LatentStyleCount="267">
+                  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+                   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+                  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+                   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+                  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+                  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+                  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+                  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+                  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+                  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+                  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+                  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+                  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+                  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+                  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+                  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+                  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+                  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+                  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+                  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+                  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+                  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+                  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+                   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+                  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+                  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+                   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+                  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+                   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+                  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+                   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+                  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Table Grid"/>
+                  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+                  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+                   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+                  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Light Shading"/>
+                  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Light List"/>
+                  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Light Grid"/>
+                  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+                  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+                  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium List 1"/>
+                  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium List 2"/>
+                  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+                  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+                  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+                  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Dark List"/>
+                  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Colorful Shading"/>
+                  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Colorful List"/>
+                  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Colorful Grid"/>
+                  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+                  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+                  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+                  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+                  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+                  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+                  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+                  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+                   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+                  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+                   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+                  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+                   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+                  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+                  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+                  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+                  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+                  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+                  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+                  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+                  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+                  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+                  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+                  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+                  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+                  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+                  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+                  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+                  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+                  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+                  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+                  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+                  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+                  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+                  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+                  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+                  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+                  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+                  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+                  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+                  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+                  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+                  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+                  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+                  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+                  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+                  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+                  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+                  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+                  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+                  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+                  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+                  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+                  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+                  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+                  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+                  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+                  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+                  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+                  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+                  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+                  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+                  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+                  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+                  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+                  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+                  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+                  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+                  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+                  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+                  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+                  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+                  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+                  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+                  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+                  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+                  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+                  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+                  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+                  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+                  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+                  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+                  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+                  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+                  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+                  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+                  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+                  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+                  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+                  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+                  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+                   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+                  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+                   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+                  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+                   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+                  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+                   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+                  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+                   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+                  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+                   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+                  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+                  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+                 </w:LatentStyles>
+                </xml><![endif]--><!-- [if gte mso 10]>
+                <style>
+                 /* Style Definitions */
+                 table.MsoNormalTable
+                    {mso-style-name:"Table Normal";
+                    mso-tstyle-rowband-size:0;
+                    mso-tstyle-colband-size:0;
+                    mso-style-noshow:yes;
+                    mso-style-priority:99;
+                    mso-style-qformat:yes;
+                    mso-style-parent:"";
+                    mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+                    mso-para-margin-top:0cm;
+                    mso-para-margin-right:0cm;
+                    mso-para-margin-bottom:10.0pt;
+                    mso-para-margin-left:0cm;
+                    line-height:115%;
+                    mso-pagination:widow-orphan;
+                    font-size:11.0pt;
+                    font-family:"Calibri","sans-serif";
+                    mso-ascii-font-family:Calibri;
+                    mso-ascii-theme-font:minor-latin;
+                    mso-hansi-font-family:Calibri;
+                    mso-hansi-theme-font:minor-latin;
+                    mso-bidi-font-family:"Times New Roman";
+                    mso-bidi-theme-font:minor-bidi;}
+                </style>
+                <![endif]--></p>
+                <p class="MsoNormal"><strong style="mso-bidi-font-weight: normal;">For homeowners</strong></p>
+                <p class="MsoListParagraphCxSpFirst" style="margin-left: 54.0pt; mso-add-space: auto; text-indent: -36.0pt; mso-list: l0 level1 lfo1;"><span style="mso-ascii-font-family: Calibri; mso-fareast-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri;"><span style="mso-list: Ignore;">•<span style="font: 7.0pt 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span>System capacity up to 3 kW: Receive a subsidy of ₹14,588 per kW</p>
+                <p class="MsoListParagraphCxSpMiddle" style="margin-left: 54.0pt; mso-add-space: auto; text-indent: -36.0pt; mso-list: l0 level1 lfo1;"><span style="mso-ascii-font-family: Calibri; mso-fareast-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri;"><span style="mso-list: Ignore;">•<span style="font: 7.0pt 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span>System capacity above 3 kW and up to 10 kW: Receive a subsidy of ₹14,588 per kW for the first 3 kW and ₹7,294 per kW for the remaining capacity</p>
+                <p class="MsoListParagraphCxSpLast" style="margin-left: 54.0pt; mso-add-space: auto; text-indent: -36.0pt; mso-list: l0 level1 lfo1;"><span style="mso-ascii-font-family: Calibri; mso-fareast-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri;"><span style="mso-list: Ignore;">•<span style="font: 7.0pt 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span>System capacity above 10 kW: Receive a fixed subsidy of ₹94,822</p>
+                <p class="MsoNormal">&nbsp;</p>
+                <p class="MsoNormal"><strong style="mso-bidi-font-weight: normal;">For Housing Societies</strong></p>
+                <p class="MsoListParagraphCxSpFirst" style="margin-left: 54.0pt; mso-add-space: auto; text-indent: -36.0pt; mso-list: l1 level1 lfo2;"><span style="mso-ascii-font-family: Calibri; mso-fareast-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri;"><span style="mso-list: Ignore;">•<span style="font: 7.0pt 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span>Plant capacity up to 10 kW: Receive a fixed subsidy of ₹94,822</p>
+                <p class="MsoListParagraphCxSpLast" style="margin-left: 54.0pt; mso-add-space: auto; text-indent: -36.0pt; mso-list: l1 level1 lfo2;"><span style="mso-ascii-font-family: Calibri; mso-fareast-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri;"><span style="mso-list: Ignore;">•<span style="font: 7.0pt 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span>Plant capacity above 10 kW: Receive a subsidy of ₹7,294 per kW for common facilities up to 500 kWp, with a limit of 10 kWp per house</p>
+                <p class="MsoNormal">Please note: No subsidy is offered for commercial and utility-scale solar system installations.</p>
+                </div>
+                </div>
+           </div>
+            
         </main>
         <!-- End #main -->
+
+
 
         <!-- ======= Footer ======= -->
         <footer id="footer" class="footer">
             <div class="footer-content position-relative">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-4 col-md-6">
+                        <div class="col-lg-2 col-md-4">
                             <div class="footer-info">
-                                <h3>UpConstruction</h3>
-                                <p>
-                                    A108 Adam Street <br />
-                                    NY 535022, USA<br />
-                                    <br />
-                                    <strong>Phone:</strong> +1 5589 55488 55<br />
-                                    <strong>Email:</strong> info@example.com<br />
-                                </p>
-                                <div class="social-links d-flex mt-3">
-                                    <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
-                                    <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
-                                    <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
-                                    <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
-                                </div>
+                                <a href="index.html">
+                                    <!-- Uncomment the line below if you also wish to use an image logo -->
+                                    <img src="assets/img/SafalSolar/logo/logo.png" alt="" height="100px" width="100px"/>
+                                </a>
+                                
+                                
                             </div>
                         </div>
                         <!-- End footer info column-->
 
                         <div class="col-lg-2 col-md-3 footer-links">
-                            <h4>Useful Links</h4>
+                            <h4>Services</h4>
+                            <ul>
+                                <li><a href="#">Homes</a></li>
+                                <li><a href="#">Housing Societies</a></li>
+                                <li><a href="#">Commercial</a></li>
+                                <li><a href="#">On-grid Solar</a></li>
+                                <li><a href="#">Off-grid Solar</a></li>
+                                <li><a href="#">Water Heaters</a></li>
+                            </ul>
+                        </div>
+                        <!-- End footer links column-->
+
+                        <div class="col-lg-2 col-md-3 footer-links">
+                            <h4>Available Locations</h4>
+                            <ul>
+                                <li><a href="#">Nagpur</a></li>
+                                <li><a href="#">Amravati</a></li>
+                                <li><a href="#">Akola</a></li>
+                                <li><a href="#">Buldhana</a></li>
+                                <li><a href="#">Aurangabad</a></li>
+                                <li><a href="#">Betul(MP)</a></li>
+                            </ul>
+                        </div>
+                        <!-- End footer links column-->
+
+                        <div class="col-lg-2 col-md-3 footer-links">
+                            <h4>Quick Links</h4>
                             <ul>
                                 <li><a href="#">Home</a></li>
-                                <li><a href="#">About us</a></li>
+                                <li><a href="#">About Us</a></li>
                                 <li><a href="#">Services</a></li>
-                                <li><a href="#">Terms of service</a></li>
-                                <li><a href="#">Privacy policy</a></li>
+                                <li><a href="#">Projects</a></li>
+                                <li><a href="#">Contact Us</a></li>
                             </ul>
                         </div>
                         <!-- End footer links column-->
 
-                        <div class="col-lg-2 col-md-3 footer-links">
-                            <h4>Our Services</h4>
-                            <ul>
-                                <li><a href="#">Web Design</a></li>
-                                <li><a href="#">Web Development</a></li>
-                                <li><a href="#">Product Management</a></li>
-                                <li><a href="#">Marketing</a></li>
-                                <li><a href="#">Graphic Design</a></li>
-                            </ul>
-                        </div>
-                        <!-- End footer links column-->
-
-                        <div class="col-lg-2 col-md-3 footer-links">
-                            <h4>Hic solutasetp</h4>
-                            <ul>
-                                <li><a href="#">Molestiae accusamus iure</a></li>
-                                <li><a href="#">Excepturi dignissimos</a></li>
-                                <li><a href="#">Suscipit distinctio</a></li>
-                                <li><a href="#">Dilecta</a></li>
-                                <li><a href="#">Sit quas consectetur</a></li>
-                            </ul>
-                        </div>
-                        <!-- End footer links column-->
-
-                        <div class="col-lg-2 col-md-3 footer-links">
-                            <h4>Nobis illum</h4>
-                            <ul>
-                                <li><a href="#">Ipsam</a></li>
-                                <li><a href="#">Laudantium dolorum</a></li>
-                                <li><a href="#">Dinera</a></li>
-                                <li><a href="#">Trodelas</a></li>
-                                <li><a href="#">Flexo</a></li>
-                            </ul>
+                        <div class="col-lg-4 col-md-6 footer-info">
+                            <p style="line-height: 3;">
+                                <i style="color: #6185DB; font-size: 20px;" class="bi bi-house-check-fill"></i>       <strong>Achraj Tower 1, 4th floor,Chaoni, Nagpur-440001</strong><br />
+                                <i style="color: #6185DB; font-size: 20px;" class="bi bi-telephone-fill"></i>  <strong>+91 7666101848</strong><br />
+                                <i style="color: #6185DB; font-size: 20px;" class="bi bi-envelope-at-fill"></i>  <strong>safalsolargreenenergy@gmail.com</strong><br />
+                            </p>
+                            <div class="social-links d-flex mt-3">
+                                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
+                                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
+                                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
+                                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
+                            </div>
                         </div>
                         <!-- End footer links column-->
                     </div>
@@ -1048,6 +1287,8 @@
         </footer>
         <!-- End Footer -->
 
+
+
         <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
         <div id="preloader"></div>
@@ -1066,41 +1307,37 @@
 
         <!-- counter for why choose solar -->
         <script>
-let counts = setInterval(updated);
-let upto = 0;
-function updated() {
-    let count = document.getElementById("counter");
-    let count2 = document.getElementById("counter2");
-    let count3 = document.getElementById("counter3");
-    count.innerHTML = ++upto;
-    if (upto === 50) {
-        clearInterval(counts);
-    }
-}
+            let counts = setInterval(updated);
+            let upto = 0;
+            function updated() {
+                let count = document.getElementById("counter");
+                let count2 = document.getElementById("counter2");
+                let count3 = document.getElementById("counter3");
+                count.innerHTML = ++upto;
+                if (upto === 50) {
+                    clearInterval(counts);
+                }
+            }
 
-let counts2 = setInterval(updated2);
-let upto2 = 0;
-function updated2() {
-    let count2 = document.getElementById("counter2");
-    count2.innerHTML = ++upto2;
-    if(upto2 === 500){
-        clearInterval(counts2);
-    }
+            let counts2 = setInterval(updated2);
+            let upto2 = 0;
+            function updated2() {
+                let count2 = document.getElementById("counter2");
+                count2.innerHTML = ++upto2;
+                if (upto2 === 500) {
+                    clearInterval(counts2);
+                }
+            }
 
-}
-
-
-let counts3 = setInterval(updated3);
-let upto3 = 0;
-function updated3() {
-    let count3 = document.getElementById("counter3");
-    count3.innerHTML = ++upto3;
-    if(upto3 === 5){
-        clearInterval(counts3);
-    }
-}
-
-
+            let counts3 = setInterval(updated3);
+            let upto3 = 0;
+            function updated3() {
+                let count3 = document.getElementById("counter3");
+                count3.innerHTML = ++upto3;
+                if (upto3 === 5) {
+                    clearInterval(counts3);
+                }
+            }
         </script>
     </body>
 </html>
