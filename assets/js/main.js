@@ -233,5 +233,3 @@ window.addEventListener("click", function (event) {
   }
 });
 
-// counter code
-

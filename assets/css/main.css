@@ -1107,7 +1107,7 @@ section {
 .alt-services{
   background:linear-gradient(to bottom, #f4f7f9 0%, #fefefe 100%);
 }
-.alt-services .img-bg {
+.alt-services .img-bg{
   background-size: cover;
   background-position: center center;
   min-height: 400px;
@@ -1749,7 +1749,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: var(--color-primary);
+  background: var(--color-default);
   border: 0;
   padding: 10px 35px;
   color: var(--color-white);
@@ -1758,7 +1758,8 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: rgba(254, 185, 0, 0.8);
+  background: var(--color-primary);
+  color: black;
 }
 
 @keyframes animate-loading {
@@ -2853,4 +2854,9 @@ section {
     position: relative;
 }
 
-
+.content {
+  
+  text-align: center;
+  color: black; /* Text color for the content */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
